@@ -1,0 +1,16 @@
+[package]
+name = "echo_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+clap = "4.4.12"
+cpal = "0.15.2"
+ringbuf = "0.3.3"
+# wavy = "0.9"
+# fon = "0.5"
+# async_main = { version = "0.4", features = ["pasts"] }
+# tokio = { version = "1.35.1", features = ["rt", "rt-multi-thread", "macros"] }
